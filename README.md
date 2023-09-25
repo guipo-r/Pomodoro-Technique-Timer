@@ -12,9 +12,9 @@ Download "main.py" file.
 Make sure that you have python installed on your PC.
 Open a blank Notepad file and write the following:
 
-_@echo off
-"ThePathWherePythonIsInstalled\pythonw.exe" "PathWhereTheMain.pyScriptIs\main.py"
-pause_
+_@echo off \n
+"ThePathWherePythonIsInstalled\pythonw.exe" "PathWhereTheMain.pyScriptIs\main.py" \n
+pause_ \n
 
 Then go to "Save As" in the Notepad File menu. Save the file with a new name, "Pomodoro_app" for example, and **remember to
 specify that it is a batch file using _.bat_ at the end of your file name.**
